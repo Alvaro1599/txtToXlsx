@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
-     "homepage": "https://Alvaro1599.github.io/txtToXlsx",
+    "homepage": "https://Alvaro1599.github.io/txtToXlsx",
     "preview": "vite preview"
   },
   "dependencies": {
